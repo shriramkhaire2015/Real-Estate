@@ -97,7 +97,7 @@ Data Pre-processing:
  
        Please refer deplotment_RE.xlsx. Column hc_mortgage_mean is predicted variable. This is the mean monthly mortgage and owner costs of specified geographical location.
        
- #      Note: Exclude loans from prediction model which have NaN (Not a Number) values for hc_mortgage_mean.
+ ###      Note: Exclude loans from prediction model which have NaN (Not a Number) values for hc_mortgage_mean.
  
        a) Run a model at a Nation level. If the accuracy levels and R square are not satisfactory proceed to below step.
        
