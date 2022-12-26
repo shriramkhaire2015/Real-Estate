@@ -1,4 +1,5 @@
-Real Estate
+Real Eatate
+
 DESCRIPTION
 •	A banking institution requires actionable insights into mortgage-backed securities, geographic business investment, and real estate analysis. 
 •	The mortgage bank would like to identify potential monthly mortgage expenses for each region based on monthly family income and rental of the real estate.
