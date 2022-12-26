@@ -1,34 +1,35 @@
-Real Eatate
+### Real Eatate
 
-DESCRIPTION
+## DESCRIPTION
 •	A banking institution requires actionable insights into mortgage-backed securities, geographic business investment, and real estate analysis. 
 •	The mortgage bank would like to identify potential monthly mortgage expenses for each region based on monthly family income and rental of the real estate.
 •	A statistical model needs to be created to predict the potential demand in dollars amount of loan for each of the region in the USA. Also, there is a need to create a dashboard which would refresh periodically post data retrieval from the agencies.
 •	The dashboard must demonstrate relationships and trends for the key metrics as follows: number of loans, average rental income, monthly mortgage and owner’s cost, family income vs mortgage cost comparison across different regions. The metrics described here do not limit the dashboard to these few.
 
-Dataset Description
+# Dataset Description
  
-Variables                     	Description
-Second mortgage               	Households with a second mortgage statistics
-Home equity                   	Households with a home equity loan statistics
-Debt	Households with any type of debt statistics
-Mortgage Costs	Statistics regarding mortgage payments, home equity loans, utilities, and property taxes
-Home Owner Costs	Sum of utilities, and property taxes statistics
-Gross Rent	Contract rent plus the estimated average monthly cost of utility features
-High school Graduation	High school graduation statistics
-Population Demographics	Population demographics statistics
-Age Demographics	Age demographic statistics
-Household Income	Total income of people residing in the household
-Family Income	Total income of people related to the householder
+# Variable                   	  Desci[tion
 
-Project Task: Week 1
+Second mortgage :              Households with a second mortgage statistics
+Home equity     :              	Households with a home equity loan statistics
+Debt            :              	Households with any type of debt statistics
+Mortgage Costs	 :               Statistics regarding mortgage payments, home equity loans, utilities, and property taxes
+Home Owner Costs :              Sum of utilities, and property taxes statistics
+Gross Rent	     :               Contract rent plus the estimated average monthly cost of utility features
+High school     :               Graduation	High school graduation statistics
+Population Demographics	:       Population demographics statistics
+Age Demographics	 :             Age demographic statistics
+Household Income	 :             Total income of people residing in the household
+Family Income	    :             Total income of people related to the householder
 
-Data Import and Preparation:
+# Project Task: Week 1
+
+# Data Import and Preparation:
 1.	Import data. 
 2.	Figure out the primary key and look for the requirement of indexing.
 3.	Gauge the fill rate of the variables and devise plans for missing value treatment. Please explain explicitly the reason for the treatment chosen for each variable.
 
-Exploratory Data Analysis (EDA):
+# Exploratory Data Analysis (EDA):
 4.	Perform debt analysis. You may take the following steps:
 
 •	Explore the top 2,500 locations where the percentage of households with a second mortgage is the highest and percent ownership is above 10 percent. Visualize using geo-map. You may keep the upper limit for the percent of households with a second mortgage to 50 percent
@@ -48,7 +49,7 @@ o	Bad Debt = second_mortgage + home_equity - home_equity_second_mortgage
 7.	Please detail your observations for rent as a percentage of income at an overall level, and for different states.
 8.	Perform correlation analysis for all the relevant variables by creating a heatmap. Describe your findings.
  
-Project Task: Week 2
+# Project Task: Week 2
 
 Data Pre-processing:
 1.	The economic multivariate data has a significant number of measured variables. The goal is to find where the measured variables depend on a number of smaller unobserved common factors or latent variables. 
@@ -60,10 +61,10 @@ Data Pre-processing:
 •	Percent own
 •	Bad debt expense
  
-Data Modeling :
+# Data Modeling :
 3.	Build a linear Regression model to predict the total monthly expenditure for home mortgages loan. 
        Please refer deplotment_RE.xlsx. Column hc_mortgage_mean is predicted variable. This is the mean monthly mortgage and owner costs of specified geographical location.
-       Note: Exclude loans from prediction model which have NaN (Not a Number) values for hc_mortgage_mean. 
+ #      Note: Exclude loans from prediction model which have NaN (Not a Number) values for hc_mortgage_mean. 
        a) Run a model at a Nation level. If the accuracy levels and R square are not satisfactory proceed to below step.
        b) Run another model at State level. There are 52 states in USA.
        c) Keep below considerations while building a linear regression model:
