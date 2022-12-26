@@ -8,9 +8,9 @@ DESCRIPTION
 
 Dataset Description
  
-Variables	Description
-Second mortgage	Households with a second mortgage statistics
-Home equity	Households with a home equity loan statistics
+Variables                     	Description
+Second mortgage               	Households with a second mortgage statistics
+Home equity                   	Households with a home equity loan statistics
 Debt	Households with any type of debt statistics
 Mortgage Costs	Statistics regarding mortgage payments, home equity loans, utilities, and property taxes
 Home Owner Costs	Sum of utilities, and property taxes statistics
